@@ -11,27 +11,31 @@
         <header>
             <div class="logo">
                 <h1><img src="Imagenes/Logo.png"></h1>
+            
             </div>       
         </header>
 
         
 
-        <main>
-            <section class="caja-all">
-                <textarea class="caja1" cols="60" rows="20" required placeholder="Ingrese el texto aqui"></textarea>              
-                <textarea class="caja2" cols="30" rows="20" required placeholder="Ingrese el texto aqui"></textarea>  
+        <main id="c1-2">
+            <section class="caja1">
+                <form action=""></form>
+                    <textarea class="caja1" cols="60" rows="20" type="texto" id="T-Encriptado" required placeholder="Ingrese el texto aqui"></textarea>              
+                    <p class="codigo">Solo letras minisculas y sin acentos</p>              
+                    <button type="button" id="bt1" class="boton-1" value="codigoA">Encriptar</button>         
+                    <button type="button" id="bt1" class="boton-2" value="codigoB">Desencriptar</button>          
+                </form>
             </section>
 
            
             
 
-            <section id="">
+           
                           
-                 <p class="codigo">Solo letras minisculas y sin acentos</p>
-                 <div class="button-all">
-                    <button id="botones" class="boton-1">Encriptar</button>         
-                    <button id="botones" class="boton-2">Desencriptar</button>
-                    <button id="botones" class="boton-3">Copiar</button>
+            <section class="">
+                 <div class="caja2">
+                    <textarea class="caja2" cols="30" rows="25" type="texto" id="T-Desencriptado" required placeholder="Ingrese el texto aqui"></textarea>  
+                    <button id="bt2" class="boton-3">Copiar</button>
                  </div>
                  
           
@@ -43,8 +47,8 @@
                 <p class="copyright">&#9812ReYeS0101</p>
                 <a href="https://www.linkedin.com/in/gustavomonacofels"><img class="icono" src="Imagenes/linkedin.png"></a>
                 <a href="https://www.github.com/ReYeS0101"><img class="icono" src="Imagenes/github.png"></a>  
-            </div>
-                    
-        </footer>       
+            </div>                    
+        </footer> 
+        <script src="js/encriptar.js"></script>      
     </body>
 </html>

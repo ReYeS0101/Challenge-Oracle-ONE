@@ -1,55 +1,39 @@
 header{
-    padding: 15px;
+    padding: 20px 0 0 0;
 }
 body{
     background: #F3F5FC;    
 }
-/* logo */
-#logo{
-    position: absolute;
-       
-}
-.titulo-logo{
-    position: absolute;
-    font-style: italic;
-    font-size: 20px;
-    color: #666666;
+.titulo{
+
+    color:#555555; 
 }
 /* area de texto */
-.caja-all{
-    padding: 20px 0 10px 150px;    
+#c1-2{
+   display:flex;
+   margin: 0 0 0 150px;
+ 
 }
-.caja1{    
+
+.caja1{
+   
     resize: none;
-    padding: 0.7em;
+    padding: 15px;
     font-size: 15px;
     border-color: #F3F5FC;
     background-color: #F3F5FC;
-    margin-right: 200px;
+   
     outline: none;
 }
-.caja2{    
-    resize: none;
-    padding: 0.7em;
-    font-size: 15px; 
-    border-radius: 15px;
-    border-color: #F3F5FC;
-    outline: none;
-}
-
 .codigo{
-    padding: 0 0 0 150px;
+    padding: 5px 0 10px 10px;
     color: #666666;
 }
 .codigo:before{
     content:"→";
 }
-/* botones */
-.button-all{
-    padding: 10px 0 0 220px;
-}
-
-#botones{ 
+#bt1{ 
+    margin: 0 10px;
     width: 150px;
     height: 40px;
     background: aquamarine;
@@ -59,19 +43,40 @@ body{
     transition: 1s all;
     cursor: pointer;
 }
-#botones:hover{
+#bt1:hover{
     background: linear-gradient(aquamarine, #666666);
     transform: scale(1.1);
+}   
 
+
+.caja2{   
+    position: absolute;
+    resize: none;
+    padding: 15px;
+    font-size: 15px; 
+    border-radius: 15px;
+    border-color: #F3F5FC;
+    outline: none;
     
+}
+#bt2{ 
+    margin: 425px 0 0 45px;
+    position: fixed;
+    width: 200px;
+    height: 40px;
+    background: aquamarine;
+    border-radius: 10px;
+    border-color: aquamarine;
+    color:#555555; 
+    transition: 1s all;
+    cursor: pointer;
+}
+#bt2:hover{
+    background: linear-gradient(aquamarine, #666666);
+    transform: scale(1.1);
+}   
 
-}    
-.boton-1{
-    margin-right: 60px; 
-} 
-.boton-2{
-    margin-right: 370px; 
-} 
+
 
 
 /* datos personales */
