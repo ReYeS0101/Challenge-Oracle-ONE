@@ -1,14 +1,10 @@
 body{
-    position: relative;
-    width: 940px;
-    height: 1024px;
-    background: #F3F5FC;
-    margin: 35px 0 0 35px;
+    background: #F3F5FC;    
 }
 /* logo */
 #logo{
     position: absolute;
-    bottom: 0%;
+       
 }
 .titulo-logo{
     position: absolute;
@@ -16,22 +12,55 @@ body{
     font-size: 20px;
     color: #666666;
 }
-/* text area */
-.input{
-    display: block;
-    margin: 50px 50px 0;
-    border-radius: 5px;
+/* area de texto */
+.caja-all{
+    padding: 40px 0 20px 150px;
 }
-    
+
+.caja1{    
+    resize: none;
+    padding: 0.7em;
+    font-size: 15px;
+    border-color: #F3F5FC;
+    background-color: #F3F5FC;
+}
+.caja2{    
+    resize: none;
+    padding: 0.7em;
+    font-size: 15px; 
+    border-radius: 15px;
+    border-color: #F3F5FC;
+    background-image:url()
+}
+
+.codigo{
+    padding: 0 0 0 150px;
+    color: #666666;
+}
+/* botones */
+
+#botones{  
+ 
+    margin: 10px 0 0 0;
+    width: 150px;
+    height: 40px;
+    background: aquamarine;
+    border-radius: 10px;
+    border-color: aquamarine;
+    color:#555555; 
+}    
+.boton{
+  
+} 
+
+
 /* datos personales */
 footer{
     display:flex;
     padding: 10px;
-  
-   
 }
 .copyright{
-    color: #000000;
+    color: #555555;
     font-size: 15px;
     font-style: normal;
     margin: 5px;
