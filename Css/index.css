@@ -1,3 +1,6 @@
+header{
+    padding: 15px;
+}
 body{
     background: #F3F5FC;    
 }
@@ -14,15 +17,16 @@ body{
 }
 /* area de texto */
 .caja-all{
-    padding: 40px 0 20px 150px;
+    padding: 20px 0 10px 150px;    
 }
-
 .caja1{    
     resize: none;
     padding: 0.7em;
     font-size: 15px;
     border-color: #F3F5FC;
     background-color: #F3F5FC;
+    margin-right: 200px;
+    outline: none;
 }
 .caja2{    
     resize: none;
@@ -30,43 +34,62 @@ body{
     font-size: 15px; 
     border-radius: 15px;
     border-color: #F3F5FC;
-    background-image:url()
+    outline: none;
 }
 
 .codigo{
     padding: 0 0 0 150px;
     color: #666666;
 }
+.codigo:before{
+    content:"→";
+}
 /* botones */
+.button-all{
+    padding: 10px 0 0 220px;
+}
 
-#botones{  
- 
-    margin: 10px 0 0 0;
+#botones{ 
     width: 150px;
     height: 40px;
     background: aquamarine;
     border-radius: 10px;
     border-color: aquamarine;
     color:#555555; 
+    transition: 1s all;
+    cursor: pointer;
+}
+#botones:hover{
+    background: linear-gradient(aquamarine, #666666);
+    transform: scale(1.1);
+
+    
+
 }    
-.boton{
-  
+.boton-1{
+    margin-right: 60px; 
+} 
+.boton-2{
+    margin-right: 370px; 
 } 
 
 
 /* datos personales */
 footer{
-    display:flex;
+    display: flex;
+    justify-content: center;
+}
+.datos{  
+    display: flex;
     padding: 10px;
 }
 .copyright{
     color: #555555;
     font-size: 15px;
     font-style: normal;
-    margin: 5px;
-    text-align: center;
+    margin: 5px;  
 }
 .icono{
     width: 20px;
-    padding: 0 0 0 5px;
+    padding: 0 0 0 10px;
 }    
