@@ -5,24 +5,19 @@ body{
     background: #F3F5FC;    
 }
 .titulo{
-
     color:#555555; 
 }
 /* area de texto */
 #c1-2{
    display:flex;
-   margin: 0 0 0 150px;
- 
+   margin: 0 0 0 150px; 
 }
-
-.caja1{
-   
+.caja1{   
     resize: none;
     padding: 15px;
     font-size: 15px;
     border-color: #F3F5FC;
-    background-color: #F3F5FC;
-   
+    background-color: #F3F5FC;   
     outline: none;
 }
 .codigo{
@@ -46,23 +41,10 @@ body{
 #bt1:hover{
     background: linear-gradient(aquamarine, #666666);
     transform: scale(1.1);
-}   
-
-
-.caja2{   
-    position: absolute;
-    resize: none;
-    padding: 15px;
-    font-size: 15px; 
-    border-radius: 15px;
-    border-color: #F3F5FC;
-    outline: none;
-    
 }
 #bt2{ 
-    margin: 425px 0 0 45px;
-    position: fixed;
-    width: 200px;
+    margin: 0 10px;
+    width: 150px;
     height: 40px;
     background: aquamarine;
     border-radius: 10px;
@@ -74,11 +56,32 @@ body{
 #bt2:hover{
     background: linear-gradient(aquamarine, #666666);
     transform: scale(1.1);
-}   
-
-
-
-
+}
+.caja2{   
+    position: absolute;
+    resize: none;
+    padding: 15px;
+    font-size: 15px; 
+    border-radius: 15px;
+    border-color: #F3F5FC;
+    outline: none;    
+}
+#bt3{ 
+    margin: 425px 0 0 45px;
+    position: fixed;
+    width: 200px;
+    height: 40px;
+    background: aquamarine;
+    border-radius: 10px;
+    border-color: aquamarine;
+    color:#555555; 
+    transition: 1s all;
+    cursor: pointer;
+}
+#bt3:hover{
+    background: linear-gradient(aquamarine, #666666);
+    transform: scale(1.1);
+}
 /* datos personales */
 footer{
     display: flex;
