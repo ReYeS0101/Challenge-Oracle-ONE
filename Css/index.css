@@ -39,7 +39,7 @@ body{
     cursor: pointer;
 }
 #bt1:hover{
-    background: linear-gradient(aquamarine, #666666);
+    background: linear-gradient(aquamarine, #F3F5FC);
     transform: scale(1.1);
 }
 #bt2{ 
@@ -54,20 +54,24 @@ body{
     cursor: pointer;
 }
 #bt2:hover{
-    background: linear-gradient(aquamarine, #666666);
+    background: linear-gradient(aquamarine, #F3F5FC);
     transform: scale(1.1);
 }
 .caja2{   
     position: absolute;
+    margin: 12px 0 0 0;
     resize: none;
     padding: 15px;
     font-size: 15px; 
     border-radius: 15px;
     border-color: #F3F5FC;
-    outline: none;    
+    background: linear-gradient(#F3F5FC, #F3F5Fc, #F3F5Fc, aquamarine);
+    outline: none;
+    text-align:center;  
+  
 }
 #bt3{ 
-    margin: 425px 0 0 45px;
+    margin: 435px 0 0 45px;
     position: fixed;
     width: 200px;
     height: 40px;
@@ -79,7 +83,7 @@ body{
     cursor: pointer;
 }
 #bt3:hover{
-    background: linear-gradient(aquamarine, #666666);
+    background: linear-gradient(aquamarine, #F3F5FC);
     transform: scale(1.1);
 }
 /* datos personales */

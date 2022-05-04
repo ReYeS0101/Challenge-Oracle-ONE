@@ -3,10 +3,12 @@ function encriptado(){
     var texcifrado = cifrado.replace(/e/gi, "enter").replace(/i/gi, "imes").replace(/a/gi, "ai").replace(/o/gi, "ober").replace(/u/gi, "ufat");
     document.querySelector("#TD").value = texcifrado;
     document.querySelector("#TE").value;
+
+    var borrartexto=document.querySelector("#TE");
+    borrartexto.value = ""; 
 }
 
 var bt1 = document.querySelector("#bt1"); bt1.onclick = encriptado;
-
 
 
 
